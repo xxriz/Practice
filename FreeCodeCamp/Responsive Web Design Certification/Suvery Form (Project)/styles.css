@@ -1,0 +1,13 @@
+
+label {
+    display:block;
+    
+  }
+  
+  
+  input[type="radio"], input[type="checkbox"] {
+    display:inline;
+  }
+  input {
+    display:block;
+  }

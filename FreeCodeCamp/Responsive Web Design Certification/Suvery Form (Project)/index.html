@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> Survey Form 
+    </h1>
+    <p id="description">A Survey From created during FreeCodeCamp</p>
+    <form id="survey-form" method="post" action='https://survey-form.freecodecamp.rocks'>
+      <fieldset>
+        
+        <label id="name-label">Enter your name: <input id="name" type="text" placeholder="Name" required /></label>
+
+        <label id="email-label">Enter your email: <input id="email" type="email" placeholder="Email address" required /></label>
+
+        <label id="number-label">Age: <input id="number" type="number" placeholder="Age" required min="18" max="80"/></label>
+        
+        <label id="label-dropdown">Gender:</label>
+          <select id="dropdown">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        
+        <label>Are you currently employed?</label>
+          <label><input type="radio" name="employment" value="yes"/> Yes</label>
+          <label><input type="radio" name="employment" value="no"/> No</label>
+
+        <label>Choose the following</label>
+          <label><input type="checkbox" value="fun"/> Fun</label>
+          <label><input type="checkbox" value="exciting"/> Exciting</label>
+
+        <label>Do you have additional comments?</label>
+          <textarea rows="5" cols="35">
+          </textarea>
+        
+        <input type="submit" id="submit">
+      </fieldset>
+
+    </form>
+  </body>
+</html>
