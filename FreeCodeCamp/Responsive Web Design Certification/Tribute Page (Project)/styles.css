@@ -1,6 +1,60 @@
+body{
+  margin:0;
+}
+
 #image{
     max-width: 100%;
-    height: 100auto;
+    max-height:100%;
+    width: 500px;
+    height: auto;
     margin: auto;
     display: block;
   }
+
+#img-div{
+  background-color: #ffeccf;
+  padding: 20px 0;
+}
+
+#title{
+  text-align: center;
+  padding: 10px 0;
+  background-color: #d2c4ae;
+}
+
+#title-name{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+#img-caption{
+  text-align: center;
+}
+
+#tribute-info{
+
+  background-color: #d2c4ae;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#biography {
+  background-color: #ffeccf;
+  width: 30%;
+  text-align:center;
+  margin:auto;
+  border-radius: 3%;
+  padding:10px 10px;
+}
+
+ul{
+  
+  text-align: left;
+}
+
+li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
